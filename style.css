@@ -25,6 +25,8 @@ ul{
 .header{
     min-height: 100vh;
     background: dodgerblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__nav{
@@ -54,3 +56,19 @@ ul{
 }
 
 /* header end */
+
+.header__content{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.header__title{
+    font-size: 50px;
+}
+
+.header__txt{
+    font-size: 22px;
+}
