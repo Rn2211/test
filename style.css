@@ -66,9 +66,24 @@ ul{
 }
 
 .header__title{
-    font-size: 50px;
+    /* font-size: 150px; */
+    font-size: calc(50px + 100 * (100vw / 1920));
+}
+
+.original{
+    font-size: 150px;
 }
 
 .header__txt{
     font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    .original{
+        font-size: 50px;
+    }
+    
+    .header__title{
+        font-size: calc(50px + (100 + 100 * 0.7) * (100vw - 320px) / 1920);
+    }
 }
