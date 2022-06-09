@@ -24,7 +24,7 @@ ul{
 
 .header{
     min-height: 100vh;
-    background: dodgerblue;
+    background: darkred;
     display: flex;
     flex-direction: column;
 }
